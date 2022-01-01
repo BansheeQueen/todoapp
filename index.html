@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body>
+  <main>
+    <div class="title">
+      <h1>Todo</h1>
+      <button class="brightness"><img src="images/icon-moon.svg" alt="Change brightness"></button>
+    </div>
+    <div class="create">
+      <div class="icon-create"></div>
+      <span class="circle"></span><input type="text" name="createToDo" id="createToDo" placeholder="Create a new todo">
+    </div>
+    <div class="todolist">
+      <ul></ul>
+    <div class="bottom-bar">
+      <div class="counter"><span></span> items left</div>
+      <div class="filter-desktop">
+        <button class="options all current">All</button>
+        <button class="options active">Active</button>
+        <button class="options completed">Completed</button>
+      </div>
+      <div class="clear">
+        <button class="clearing">Clear completed</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="filter-mobile">
+      <button class="options all current">All</button>
+      <button class="options active">Active</button>
+      <button class="options completed">Completed</button>
+    </div>
+
+   <div class="dragdesc"><p> Drag and drop to reorder list</p></div>
+  </main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+<script src="colorschanger.js"></script>
+<script src="taskcounter.js"></script>
+<script src="draggable.js"></script>
+<script src="sortlist.js"></script>
+<script src="tasklist.js"></script>
+<script src="main.js"></script>
+</html>
